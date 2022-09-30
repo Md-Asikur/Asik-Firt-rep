@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.content{
+    position: relative;
+}
+.content h2{
+    position: absolute;
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+    font-size: 8em;
+}
+    .content h2:nth-child(1){
+        color: transparent;
+        -webkit-text-stroke: 2px #03a9f4;
+    }
+     .content h2:nth-child(2){
+        color: #03a9f4;
+        animation: animate 4s ease-in-out infinite;
+     }
+
+@keyframes animate{
+    0%,100%{
+    clip-path: polygon(, 26% 70%1% 75%, 40% 64%, 16% 77%, 45% 78%, 26% 70%, 68% 73%, 40% 64%, 84% 82%, 45% 78%, 68% 65%, 68% 73%, 83% 74%, 84% 82%, 98% 54%, 98% 54%, 100% 77%, 83% 74%, 100% 99%, 100% 99%, 0% 99%, 0% 99%);
+    }
+    50%{
+     clip-path: polygon(0% 81%, 24% 88%, 33% 70%, 48% 78%, 57% 60%, 75% 73%, 92% 66%, 90% 84%, 99% 89%, 100% 99%, 1% 98%);
+    }
+}

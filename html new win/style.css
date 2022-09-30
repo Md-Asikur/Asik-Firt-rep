@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+li{
+    display: inline-block;
+}
+
+.main ul li a {
+    margin:10px 20px;
+    color:whitesmoke;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-decoration: none;
+    border: 3px solid whitesmoke;
+    padding: 10px 20px;
+    border-top-left-radius: 3px;
+   
+}
+.main ul li a:hover{
+    color:darkcyan;
+    border: 2px solid darkgray;
+    padding: 10px 20px;
+   
+}
+ .title{
+    position: absolute;
+    top: 50%;
+    left:  30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.btn{
+   margin-right: 30px;
+   font-size: 1.6rem;
+   border: 3px solid white;
+   padding: 10px 20px;
+   background-color: transparent;
+}
+.btn-danger{
+    
+}
+.btn:hover{
+    background-color: skyblue;
+    border: 3px solid white;
+    padding: 10px 20px;
+    color: crimson;
+    
+}
+h1{
+    font-size: 3rem;
+    color: cadetblue;
+}
+h3{
+    font-size: 2rem;
+    color: cadetblue;
+}
+.footer{
+    position: absolute;
+    top: 85%;
+    left: 74%;
+    color: aliceblue;
+    font-size: 3rem;
+    border-bottom: 4px solid white;
+}

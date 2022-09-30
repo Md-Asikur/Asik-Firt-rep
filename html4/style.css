@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    box-sizing: border-box;
+
+}
+.main{
+    background-image: url(1.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:45px;
+    padding-left: 5%;
+    padding-right:5% ;
+}
+.logo{
+    color:#fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+span{
+    color:deeppink;
+    
+}
+ nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    transition: .5s;
+   
+    padding: 10px 30px;
+}
+nav ul li a:hover{
+    color:crimson;
+   
+}
+.btn{
+  background-color:coral;
+  color:#000;
+  border:2px violet;
+  border-radius:10px;
+  font-size: 1.4rem;
+  padding: 5px 15px;
+  text-decoration: none;
+  transition: transform.5s;
+
+}
+.btn:hover{
+    background-color: transparent;
+    color:#fff;
+    transform: scale(1.3);
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:#fff;
+    font-size: 75px;
+    margin:20px 0px 20px;
+}
+h3{
+    color:#fff;
+    font-size: 30px;
+    margin-bottom:60px ;
+}
+h4{
+    color:#fff;
+    font-size: 20px;
+    margin-bottom:10px ;
+}
+.news form{
+    width:390px;
+    max-width:100%;
+    position:relative;
+}
+.news form input:first-child{
+    
+    display: inline-block;
+    padding: 14px;
+    border:2px salmon;
+    outline:none;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: chocolate;
+    color: #000;
+}
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    padding: 14px;
+    border:2px salmon;
+    outline:none;
+   background-color: crimson;
+   color: #fff;
+   margin-left:20px ;
+   font-size: 20px;
+   
+}
+.about{
+    width:100;
+    padding:100px 0px;
+    background-color:#191919 ;
+    background-image: url(3.png);
+}
+.about img{
+    height:auto;
+    width:430px;
+}
+.about-text{
+    width: 550px;
+}
+.ma{
+    width:1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ .about-text h2{
+    color:#fff;
+    font-size:75px;
+    margin-bottom: 20px;
+    text-transform:capitalize;
+ }
+ .about-text h5{
+    color:#fff;
+    font-size:35px;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+ }
+ .about-text p{
+    color:teal;
+    font-size:15px;
+    margin-bottom: 3px;
+    text-transform:capitalize;
+    letter-spacing:1px;
+ }
+ span{
+    color:coral;
+ }
+ button{
+    color:fuchsia;
+    background-color: #fff;
+    border:3px #000;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 30px;
+ }
+ button:hover{ 
+    color:darkkhaki;
+    background-color: transparent;
+    border: 4px red;
+}
+   
+ 

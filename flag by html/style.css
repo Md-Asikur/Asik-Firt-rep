@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.greenbox{
+    height: 400px;
+    width:700px;
+    background-color: green;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: .85cm .85cm 1cm;
+}
+.redbox{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: .150cm .150cm 1cm;
+}
+.text2{
+    color:#000;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 60px;
+}
+span{
+    color:chocolate;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+}

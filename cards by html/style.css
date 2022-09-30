@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 20%;
+    background-color: gray;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 10px 10px 20px rgb(20, 20, 22);
+    margin: 40px;
+   
+
+}
+.image img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.title{
+    font-size: 1.3rem;
+    color:darkgoldenrod;
+   
+    text-align: center;
+    margin-left: 18%;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.des p{
+    font-size: 2em;
+    color:#fff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card .des .btn{
+    color:cadetblue;
+    border: 3px solid rebeccapurple;
+    width: 100%;
+    font-size: 1.62rem;
+   margin-right: 25px;
+  
+    background-color: rebeccapurple;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    transition: 1s ease-out;
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+}
+.card .des .btn:hover{
+    color:chocolate;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+    
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+@media  screen and  (max-width: 750px){
+    background-color: red;
+
+}
+    

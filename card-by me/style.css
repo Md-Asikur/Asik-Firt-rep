@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  
+   
+    background-color: darkgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+   
+}
+.card{
+    width:25%;
+    background-color: cadetblue;
+  
+    
+  margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px rebeccapurple;
+   
+}
+.img img{
+    width: 100%;
+    height: 200px;
+
+}
+.body{
+text-align: center;
+color:white;
+}
+h1{
+    font-size: 2rem;
+
+}
+p{
+    font-size: 1.7rem;
+}
+button{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    transition: 0.8s ease-in;
+}
+button:hover{
+    background-color:cornflowerblue;
+    transform: scale(1.3);
+  
+}

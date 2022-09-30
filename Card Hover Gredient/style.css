@@ -1,0 +1,5 @@
+img:hover{
+transform: scale(1.4);
+background-color: black;
+opacity: 0.3;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Khushi Calculator</h1>
+    <div class="card">
+      <div class="card-head">
+        <input type="text" id="result" maxlength="12" />
+      </div>
+      <div class="card-body">
+        <div>
+          <input type="button" class="btn" value="C" />
+          <input type="button" class="btn" value="+/-" />
+          <input type="button" class="btn" value="%" />
+          <input type="button" class="btn btt" value="/" />
+        </div>
+        <div>
+          <input type="button" class="btn" value="7" onclick="insertNumber()" />
+          <input type="button" class="btn" value="8" onclick="insertNumber()" />
+          <input type="button" class="btn" value="9" onclick="insertNumber()" />
+          <input type="button" class="btn btt" value="X" />
+        </div>
+        <div>
+          <input type="button" class="btn" value="4" onclick="insertNumber()" />
+          <input type="button" class="btn" value="5" onclick="insertNumber()" />
+          <input type="button" class="btn" value="6" onclick="insertNumber()" />
+          <input type="button" class="btn btt" value="-" />
+        </div>
+        <div>
+          <input type="button" class="btn" value="1" onclick="insertNumber()" />
+          <input type="button" class="btn" value="2" onclick="insertNumber()" />
+          <input type="button" class="btn" value="3" onclick="insertNumber()" />
+          <input type="button" class="btn btt" value="+" />
+        </div>
+        <div>
+          <input type="button" class="btn" value="0" onclick="insertNumber()" />
+          <input type="button" class="btn" value="." onclick="insertNumber()" />
+          <input type="button" class="btn" value="Del" />
+          <input type="button" class="btn btt-1" value="=" />
+        </div>
+      </div>
+    </div>
+    <h2>This is h2 programs for practice</h2>
+
+    <script src="vss.js"></script>
+    <script>
+$(document).ready(function(){
+  $("h2").click(function(){
+    $("h1").toggle();
+  });
+});
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+}
+.ca{
+    text-align: center;
+    margin-top:50px;
+}
+#ps{
+    height: 50px;
+   font-size: 1rem;
+    background-color: darkblue;
+    
+    color:#fff;
+    
+    width: 400px;
+}
+#ps:hover{
+    background-color: deeppink;
+    color: cyan;
+}
+#em{
+    height: 50px;
+   font-size: 1rem;
+    background-color: darkblue;
+    color:#fff;
+   
+    width: 400px;
+}
+#em:hover{
+    background-color: deeppink;
+    color: cyan;
+}
+#lg{
+    font-size: larger;
+    background-color:#fff;
+   
+    height: 60px;
+    width: auto;
+    color:  #000;;
+    width: 200px;
+    font-size: 1.5rem;
+}
+#lg:hover{
+    background-color: darkblue;
+    color: #fff;
+}
